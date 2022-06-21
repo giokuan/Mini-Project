@@ -1,0 +1,273 @@
+a{
+    text-decoration: none;
+}
+
+body{
+    height: 100vh;
+    background: url(images/night-light.jpg) center center / cover;
+    /* color: #ccc; */
+    /* overflow: hidden; */
+  
+    
+}
+
+.navbar{
+    margin-top:20px;
+    margin-bottom: 10px;
+    margin-right: 60px;
+    background-color: transparent;
+}
+
+h3{
+    padding-left: 7rem;
+    transform: translateY(-3.5rem)
+}
+
+.title-description{
+    font-size:1rem;
+    padding-left: 7rem;
+    transform: translateY(-3.9rem);
+}
+
+
+/* head logo */
+img{  
+    transform: translateY(.75rem);  
+}
+
+
+ul.dropdown-menu{
+    background-color: transparent; 
+}
+
+
+
+.navbar-toggler{
+    transform: translateX(2rem);
+}
+
+ul.dropdown-menu .dropdown-item{
+    color: rgb(227, 79,38);
+    
+    
+}
+
+
+    
+
+
+h1{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    text-transform: uppercase;
+    text-align: center;
+    color:#fff;
+    margin-left:2rem;
+    margin-right:2rem;
+}
+
+.sub-heading p{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+    line-height:2;
+}
+
+
+
+ .column{               /************* main container ******************/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    gap: 4rem;
+    margin-top:3rem;
+        
+}
+
+@media(min-width:768px){
+    .column{
+        flex-direction: row;
+        margin-left:3rem;
+        margin-right: 3rem;
+        
+    }
+
+    body{
+        overflow: hidden;
+        background-repeat: no-repeat;
+    }
+   
+}
+
+
+
+@media(min-width:900px){
+    .sub-heading{
+        margin-left:3rem;
+        margin-right: 3rem;
+    }
+}
+
+@media(min-width:1500px){
+    .sub-heading{
+        margin-left:20rem;
+        margin-right:20rem;
+    }
+}
+
+
+
+.card{
+   background-color: transparent !important;
+   color: #fff;
+   border:none !important;
+   position: relative;
+    
+    
+}
+
+.card img{
+    padding-top:0;
+    width:100%;
+    transform: translateY(10rem) ;
+    height: 20rem;
+      
+
+}
+
+
+.card-body{
+    height:8rem;
+    width:100%;
+   
+    transform: translateY(10rem) ;
+    /* border: 1px solid #ccc; */
+    font-size:.75rem;
+    position: absolute;
+    opacity:0;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left:.25rem;
+    margin-right: 1rem;
+}
+
+
+h5, p{
+    transform: translateY(-1rem);
+}
+
+.btn{
+    transform: translateY(-1.5rem);
+}
+
+
+
+
+
+/***************** card hover feature start ***********/
+figure {
+	/* width: 300px; */
+	height:20rem;
+	margin: 0;
+	padding: 0;
+
+}
+
+
+.card figure img{
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+
+
+
+.card figure:hover img {
+    cursor: pointer;
+	-webkit-transform: scale(1.2);
+	transform: scale(1.2);
+   
+}
+
+.card:hover .card-body{
+    transition: 1s ;
+    opacity:1;
+    transform:translateY(23rem);
+    background-color: rgba(0,0,0,0.3);
+    border-radius:50%;
+    z-index:-2;
+    /* border: 1px solid white; */
+
+}
+/***************** card hover feature end ***********/
+
+/*************** card-body text color *************/
+.hyper{
+    color: rgb(227, 79,38);
+}
+
+.cs{
+    color: rgb(55, 105, 178);
+}
+
+.js{
+    color: rgb(231, 200, 48);
+}
+
+
+
+.btn-read{
+    background:transparent;
+  color:#fff;
+  border:none;
+  position:relative;
+  height:1.8rem;
+  font-size:1rem;
+  padding:0 1em;
+  cursor:pointer;
+  transition:800ms ease all;
+  outline:none;
+  border-radius:1rem;
+  z-index:3;
+  transform:translateY(-5rem);
+  transform:translateX(62rem);
+  
+  width:12rem;
+
+}
+
+/****************** Read more button ******************/
+.btn-read:hover{
+    background:#fff;
+    color:rgb(227, 79,38);
+  }
+  .btn-read:before,.btn-read:after{
+    content:'';
+    position:absolute;
+    top:0;
+    right:0;
+    height:2px;
+    width:0;
+    background: rgb(227, 79,38);
+    transition:400ms ease all;
+  }
+  .btn-read:after{
+    right:inherit;
+    top:inherit;
+    left:0;
+    bottom:0;
+  }
+  .btn-read:hover:before,.btn-read:hover:after{
+    width:100%;
+    transition:800ms ease all;
+  }
+  
