@@ -1,12 +1,16 @@
 a{
     text-decoration: none;
+    
 }
 
 body{
     height: 100vh;
     background: url(images/night-light.jpg) center center / cover;
+    font-family: 'Roboto', sans-serif;
     /* color: #ccc; */
     /* overflow: hidden; */
+    margin:0;
+    padding:0;
   
     
 }
@@ -43,7 +47,10 @@ ul.dropdown-menu{
 
 
 .navbar-toggler{
-    transform: translateX(2rem);
+  
+    transform: translateY(-2rem);
+    
+    
 }
 
 ul.dropdown-menu .dropdown-item{
@@ -51,9 +58,7 @@ ul.dropdown-menu .dropdown-item{
     
     
 }
-
-
-    
+  
 
 
 h1{
@@ -73,7 +78,7 @@ h1{
     justify-content:center;
     align-items:center;
     margin-top:2rem;
-    margin-left:2rem;
+    margin-left:3rem;
     margin-right: 2rem;
     line-height:2;
 }
@@ -108,16 +113,20 @@ h1{
 
 
 @media(min-width:900px){
-    .sub-heading{
+    .sub-heading, .front-end-sub-heading{
         margin-left:3rem;
         margin-right: 3rem;
+        text-align: center;
     }
+
+    
 }
 
 @media(min-width:1500px){
-    .sub-heading{
+    .sub-heading, .front-end-sub-heading{
         margin-left:20rem;
         margin-right:20rem;
+        text-align: center;
     }
 }
 
@@ -205,9 +214,26 @@ figure {
     background-color: rgba(0,0,0,0.3);
     border-radius:50%;
     z-index:-2;
-    /* border: 1px solid white; */
 
 }
+
+/******* No Shadow effects  at mobile view ********/
+@media (max-width:768px){
+
+    .hyper{
+        display: none;
+    }
+
+    .cs{
+        display: none;
+    }
+
+    .js{
+        display: none;
+    }
+}
+
+
 /***************** card hover feature end ***********/
 
 /*************** card-body text color *************/
@@ -225,7 +251,7 @@ figure {
 
 
 
-.btn-read{
+/* .btn-read{
     background:transparent;
   color:#fff;
   border:none;
@@ -241,12 +267,12 @@ figure {
   transform:translateY(-5rem);
   transform:translateX(62rem);
   
-  width:12rem;
+  width:7.8rem;
 
-}
+} */
 
 /****************** Read more button ******************/
-.btn-read:hover{
+/* .btn-read:hover{
     background:#fff;
     color:rgb(227, 79,38);
   }
@@ -269,5 +295,34 @@ figure {
   .btn-read:hover:before,.btn-read:hover:after{
     width:100%;
     transition:800ms ease all;
-  }
+  } */
   
+/********************* FRONT END PAGE START *****************************/
+  .front-end-sub-heading p{
+    color:#fff;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-right: 2rem;
+    line-height:2;
+}
+
+.front-end-sub-heading span a{
+    display:flex;
+    flex-direction: column;
+}
+
+.btn-front-end-sub-heading a{
+    display:flex;
+    line-height:1;
+    width:50rem;
+    border-radius: 2rem;
+    z-index:0;
+    transform:translateY(5rem);
+    transform:translatex(-37rem);
+   
+    
+    
+}
