@@ -1,7 +1,5 @@
-a{
-    text-decoration: none;
-    
-}
+
+
 
 body{
     height: 100vh;
@@ -11,6 +9,7 @@ body{
     /* overflow: hidden; */
     margin:0;
     padding:0;
+   
   
     
 }
@@ -18,7 +17,7 @@ body{
 .navbar{
     margin-top:20px;
     margin-bottom: 10px;
-    margin-right: 60px;
+    margin-right: 20px;
     background-color: transparent;
 }
 
@@ -49,6 +48,7 @@ ul.dropdown-menu{
 .navbar-toggler{
   
     transform: translateY(-2rem);
+
     
     
 }
@@ -110,13 +110,15 @@ h1{
    
 }
 
-
-
 @media(min-width:900px){
     .sub-heading, .front-end-sub-heading{
         margin-left:3rem;
         margin-right: 3rem;
         text-align: center;
+    }
+
+    .navbar{
+        margin-right: 60px;
     }
 
     
@@ -145,8 +147,7 @@ h1{
     padding-top:0;
     width:100%;
     transform: translateY(10rem) ;
-    height: 20rem;
-      
+    height: 20rem;   
 
 }
 
@@ -179,8 +180,6 @@ h5, p{
 
 
 
-
-
 /***************** card hover feature start ***********/
 figure {
 	/* width: 300px; */
@@ -197,7 +196,6 @@ figure {
 	-webkit-transition: .3s ease-in-out;
 	transition: .3s ease-in-out;
 }
-
 
 
 .card figure:hover img {
@@ -321,8 +319,413 @@ figure {
     border-radius: 2rem;
     z-index:0;
     transform:translateY(5rem);
-    transform:translatex(-37rem);
+    transform:translatex(-37rem);    
+}
+
+
+/********************* HYPER TEXT MARKUP  PAGE START *****************************/
+.heading{
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: auto;
+    gap:1rem;
+    margin-left:1rem;
+    margin-right:1rem;
+}
+
+.heading a{
+    text-decoration: none;
+    font-style: italic;
+    color:#fff;   
+}
+
+.heading a:hover{
+    text-decoration: underline;
+    font-style: italic;
+    color:rgb(227, 79,38);   
+}
+
+.hyper-h1{
+    
+    color:rgb(227, 79,38);
+    grid-column: 1 / 4;
+    grid-row: 1/ 2;
+    margin-top: 0;
+    text-align: center;     
+}
+
+img.hyper-logo{  
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    align-items: center;
+    justify-content:center;
+    width:100%;
+    height:8rem;
+    overflow:hidden;
+    opacity: 0;     
+}
+
+#definition {
+    grid-column: 1 / 4;
+    grid-row: 2 / 3;
+    text-align: justify;
+    /* background-color:rgba(58, 57, 57, 0.8); */
+    color :#fff;
+    margin-top: 1rem;  
+}
+
+h5#history{
+    grid-column: 1 / 4;
+    grid-row: 3 / 4;
+    text-align: center;
+    color:rgb(227, 79,38);   
+}
+
+.history-definition{
+    grid-column: 1 / 4;
+    grid-row: 4 / 5;
+    color:#fff;
+    /* background-color:rgba(58, 57, 57, 0.7); */
+    padding:1rem;
+    text-align: justify;
+}
+
+h5#simple-document{
+    grid-column: 1 / 4;
+    grid-row: 5 / 6;
+    text-align: center;
+    color:rgb(227, 79,38);
+    margin-bottom: 0;
+    margin-top:2rem;
+}
+
+.html-code1 {
+    grid-column: 1 / 4;
+    grid-row: 6 / 7;   
+    width:100%;
+    margin-top: 0;
+    border: 2px solid rgb(227, 79,38); 
+}
+
+h5#anatomy-of-html{
    
+    grid-column: 1 / 4;
+    grid-row: 7 / 8; 
+    color:rgb(227, 79,38);
+    text-align: center;
+    justify-content: center;
+    margin-top:2rem;
+}
+
+.paragraph-anatomy{
+    grid-column: 1 / 4;
+    grid-row: 8 / 9;
+    color:#fff;
+}
+
+.html-anatomy{
+    grid-column: 1 / 4;
+    grid-row: 9 / 10; 
+    width:100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.main-parts-of-our-element{
+    grid-column: 1 / 4;
+    grid-row: 10 / 11; 
+    text-align: justify;
+    color:#fff;
+}
+
+.attribute-pic{
+    grid-column: 1 / 4;
+    grid-row: 11 / 12; 
+    width:100%;
+    margin-top: 0;
+    border: 2px solid rgb(227, 79,38);
     
     
 }
+.paragraph-attribute{
+    grid-column: 1 / 4;
+    grid-row: 12 / 13;
+    color:#fff;
+    margin-top:2rem;
+    text-align:justify;
+ 
+}
+
+.attribute-must-have{
+    grid-column: 1 / 4;
+    grid-row: 13 / 14;
+    color:#fff;
+    text-align:justify;
+    
+}
+.attribute-must-have-pic{
+    width:100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.nesting-elements{
+    grid-column: 1 / 4;
+    grid-row: 14 / 15;
+    color:#fff;
+    text-align:justify;
+    margin-top:2rem;
+    
+}
+.nesting-elements h5{
+    text-align: center;
+    color:rgb(227, 79,38);
+    margin-top:0;
+}
+
+.nesting-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.nesting-elements2{
+    grid-column: 1 / 4;
+    grid-row: 15 / 16;
+    color:#fff;
+    text-align:justify;
+    margin-top:2rem
+}
+
+.nesting-pic2{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+    
+}
+
+
+
+@media (min-width:767px){
+
+    .heading{
+        display:grid;
+        grid-template-columns: 1fr 2fr 2fr 1fr;
+        grid-template-rows: 1fr;
+        gap:2rem;
+        text-align: center;   
+        column-gap: .5rem;
+    }
+
+    .hyper-sidebar{
+        /* background-color:rgba(58, 57, 57, 0.7); */
+        grid-column: 1 / 2;
+        grid-row: 1 / 6;
+        margin-top: .8rem;  
+    }
+
+    img.hyper-logo{
+        grid-column:2 / 4 ;
+        grid-row: 1 / 2;
+        opacity:1;
+    }
+
+    .hyper-h1{
+        grid-column: 2 / 4;
+        grid-row: 2 / 3;
+        margin-top:0;
+        align-items: center;
+        justify-content: center; 
+    }
+
+    #definition{
+        grid-column: 2 / 4;
+        grid-row: 3 / 4;
+    }
+
+    h5#history{
+        grid-column: 2 / 4;
+        grid-row: 4 / 5;
+        margin-top: 0;
+    }
+
+    .history-definition{
+        grid-column: 2 / 4;
+        grid-row: 5 / 6;
+        text-align:justify;  
+    }
+
+    h5#simple-document{
+        grid-column: 2 / 4;
+        grid-row: 6 / 7;
+        text-align: center;
+        color:rgb(227, 79,38);
+        margin-bottom: 0;
+        margin-top: 0;
+        height: 100%;
+    }
+
+    .html-code1 {
+        grid-column: 2 / 4;
+        grid-row: 7 / 8;
+        width:100%;
+        margin-top: 0;   
+    }
+
+    h5#anatomy-of-html{
+        grid-column: 2 / 4;
+        grid-row: 8 / 9;
+    }
+
+    .paragraph-anatomy{
+        grid-column: 2 / 4;
+        grid-row: 9 / 10;
+        color:#fff;
+        text-align: left;
+    }
+
+    .html-anatomy{
+        grid-column: 2 / 4;
+        grid-row: 10 / 11; 
+        width:100%;
+        
+    }
+
+    .main-parts-of-our-element{
+        grid-column: 2 / 4;
+        grid-row: 11 / 12; 
+        text-align: justify;
+        color:#fff;
+        margin-top: 0;
+    }
+    .main-parts-of-our-element p{
+        text-align: center;
+    }
+
+    .attribute-pic{
+        grid-column: 2 / 4;
+        grid-row: 12 / 13; 
+        width:100%;
+        margin-top: 0;
+        /* border: 2px solid rgb(227, 79,38); */
+        
+        
+    }
+
+    .paragraph-attribute{
+        grid-column: 2 / 4;
+        grid-row: 13 / 14;
+        color:#fff;
+        margin-top:1rem;
+        text-align:justify;
+     
+    }
+
+    .attribute-must-have{
+        grid-column: 2 / 4;
+        grid-row: 14 / 15;
+        text-align:justify;
+     
+        
+    }
+
+    .nesting-elements{
+        grid-column: 2 / 4;
+        grid-row: 15 / 16;
+        margin-top:2rem;
+        
+    }
+
+    .nesting-pic{
+        margin-top: 0;
+    }
+
+    .nesting-elements2{
+        grid-column: 2 / 4;
+        grid-row: 16 / 17;
+        color:#fff;
+        text-align:justify;
+        margin-top:2rem
+    }
+
+}
+
+/******************* HTML PAGE sidebar *********************/
+
+.hyper-body{
+    overflow:visible;
+    background: url("images/spaceship.gif")no-repeat center center fixed;
+
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidebar a {
+    padding: 4px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidebar a:hover {
+    color: rgb(227, 79,38);
+  }
+  
+  .sidebar .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  .openbtn {
+    font-size: 20px;
+    cursor: pointer;
+    background-color: transparent;
+    color: rgb(227, 79,38);
+    /* padding: 10px 15px; */
+    border: none;
+    /* position:fixed; */
+    
+    
+  }
+
+  @media(min-width:900px){
+    .openbtn{
+        display:none;
+    }
+  }
+
+
+  .openbtn:hover {
+    background-color: #444;
+  }
+  
+  #main {
+    transition: margin-left .5s;
+    padding: 10px 15px;
+    font-size: 20px;
+    
+  }
+
+  .homebtn{
+    color:rgb(227, 79,38);
+    
+  }
+  
+  /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+  @media screen and (max-height: 450px) {
+    .sidebar {padding-top: 15px;}
+    .sidebar a {font-size: 18px;}
+    
+  }
