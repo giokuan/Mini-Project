@@ -500,7 +500,117 @@ h5#anatomy-of-html{
     
 }
 
+.empty-elements{
+    grid-column: 1 / 4;
+    grid-row: 16 / 17;
+    color:#fff;
+    text-align:justify;
+    
+}
 
+.empty-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+    
+}
+.anatomy-of-html-document{
+    grid-column: 1 / 4;
+    grid-row: 17 / 18;
+    color:#fff;
+    text-align:justify;
+}
+.anatomy-doc-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.image{
+    grid-column: 1 / 4;
+    grid-row: 18 / 19;
+    color:#fff;
+    text-align:justify;
+
+}
+.image-pic{
+    width:100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.test-image{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.marking-up-text{
+    grid-column: 1 / 4;
+    grid-row: 19 / 20;
+    color:#fff;
+    text-align:justify;
+}
+.marking-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.marking-note1{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.marking-note2{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.paragraph{
+    grid-column: 1 / 4;
+    grid-row: 20 / 21;
+    color:#fff;
+    text-align:justify;
+}
+.paragraph-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+.list{
+    grid-column: 1 / 4;
+    grid-row: 21 / 22;
+    color:#fff;
+    text-align:justify;
+}
+.list-pic{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.list-pic2{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.links{
+    grid-column: 1 / 4;
+    grid-row: 22 / 23;
+    color:#fff;
+    text-align:justify; 
+}
+.links-pic1{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+.links-pic2{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+
+.links-pic3{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
+.links-pic4{
+    width: 100%;
+    border: 2px solid rgb(227, 79,38);
+}
 
 @media (min-width:767px){
 
@@ -644,6 +754,59 @@ h5#anatomy-of-html{
         margin-top:2rem
     }
 
+    .empty-elements{
+        grid-column: 2 / 4;
+        grid-row: 17 / 18;
+       
+        text-align:justify;
+        
+    }
+
+    .anatomy-of-html-document{
+        grid-column: 2 / 4;
+        grid-row: 18 / 19;
+       
+        text-align:justify;
+    }
+
+    .anatomy-doc-pic{
+        margin-top:0;
+    }
+
+    .image{
+        grid-column: 2 / 4;
+        grid-row: 19 / 20;
+        
+        text-align:justify;
+    }
+
+    .marking-up-text{
+        grid-column: 2 / 4;
+        grid-row: 20 / 21;
+        
+        text-align:justify;
+    }
+
+    .paragraph{
+        grid-column: 2 / 4;
+        grid-row: 21 / 22;
+       
+        text-align:justify;
+    }
+
+    .list{
+        grid-column: 2 / 4;
+        grid-row: 22 / 23;
+    }
+
+    .links{
+        grid-column: 2 / 4;
+        grid-row: 23 / 24;
+      
+        text-align:justify; 
+    }
+
+  
 }
 
 /******************* HTML PAGE sidebar *********************/
@@ -729,3 +892,7 @@ h5#anatomy-of-html{
     .sidebar a {font-size: 18px;}
     
   }
+
+/************* BUTTON BACK TO TOP ***************/
+
+/* ****************************************** */
