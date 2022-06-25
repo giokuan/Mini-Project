@@ -811,7 +811,6 @@ h5#anatomy-of-html{
 .hyper-body{
     overflow:visible;
     background: url("images/spaceship.gif")no-repeat center center fixed;
-
 }
 
 .sidebar {
@@ -853,15 +852,9 @@ h5#anatomy-of-html{
     cursor: pointer;
     background-color: rgba(0,0,0,0.7);
     color: rgb(227, 79,38);
-    /* padding: 10px 15px; */
     border: none;
     position:fixed;
-    z-index:996;
-    /* border: 1px solid rgb(227, 79,38);
-    border-radius: 50%;
-    width:2.3rem; */
-    
-    
+    z-index:996;  
   }
 
   .homebtn{
@@ -869,37 +862,22 @@ h5#anatomy-of-html{
     position:fixed;
     top:10px;
     right: 20px;
-    z-index:996;
-    
+    z-index:996; 
   }
+
   .homebtn:hover{
     color:white;
   }
 
-  /* @media(min-width:900px){
-    .openbtn{
-        display:none;
-    }
-  } */
-
-
   .openbtn:hover {
     color:white;
-    /* background-color: #444;
-    border-radius: 50%; */
   }
   
   #main {
     transition: margin-left .5s;
     padding: 10px 15px;
-    font-size: 20px;
-    
+    font-size: 20px;  
   }
-
-  /* .homebtn{
-    color:rgb(227, 79,38);
-    
-  } */
   
   /* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
   @media screen and (max-height: 450px) {
@@ -931,5 +909,87 @@ h5#anatomy-of-html{
     background-color: #555;
   }
 
+  footer {
+    text-align: center;
+    padding-top: 2rem;
+    background-color:rgba(0,0,0,0.5);
+    color: white;
+    
+  }
 
 
+  /*--------------------------------------------------------------
+# CASCADING STYLE SHEET PAGE
+--------------------------------------------------------------*/
+
+.css-body{
+    overflow:visible;
+    background: url("images/spaceship.gif")no-repeat center center fixed;
+}
+
+.css-body a:hover{
+    color:rgb(38, 156, 231);
+}
+
+.css-h4{
+    color:rgb(38, 156, 231);
+}
+
+.css-body img {
+    border: 2px solid rgb(38, 156, 231);
+}
+
+.css-body .homebtn{
+    color:rgb(38, 156, 231);
+    /* position:fixed;
+    top:10px;
+    right: 20px;
+    z-index:996;  */
+  }
+
+  .css-body  .homebtn:hover{
+    color:white;
+  }
+
+  .css-body .openbtn{
+    color:rgb(38, 156, 231);
+  }
+
+  .css-body  .openbtn:hover{
+    color:white;
+  }
+
+  .css-body .back-to-top{
+    color:rgb(38, 156, 231);
+    border-color: rgb(38, 156, 231);
+
+  }
+
+  /******* Continuation of grid from starting at index.html ************/
+  .level-one-heading{
+    grid-column: 1 / 4;
+    grid-row: 23 / 24;
+    color:#fff;
+    text-align:justify; 
+  }
+   
+.level-one-heading-pic{
+    width:100%
+}
+.level-one-heading-pic2{
+    width:100%
+}
+
+.level-one-heading-pic3{
+    width:100%
+}
+
+.level-one-heading-pic4{
+    width:100%
+}
+@media (min-width:767px){
+    .level-one-heading{
+        grid-column: 2 / 4;
+    grid-row: 24 / 25;
+    }
+}

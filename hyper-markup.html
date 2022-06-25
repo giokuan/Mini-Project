@@ -35,13 +35,13 @@
             <a href="#history">History</a> 
             <a href="#simple-document">Simple Document</a>
             <a href="#attribute-pic">Attribute</a>
-            <a href="#nesting-elements">Nesting Elements</a>
-            <a href="#empty-elements">Empty Elements</a>
-            <a href="#image">Images</a>
-            <a href="#marking-up-text">Marking up Text</a>
-            <a href="#paragraph">Paragraphs</a>
-            <a href="#list">List</a>
-            <a href="#links">Links</a>
+            <a href="#nesting">Nesting Elements</a>
+            <a href="#empty">Empty Elements</a>
+            <a href="#img-image">Images</a>
+            <a href="#text-marking">Marking up Text</a>
+            <a href="#para">Paragraphs</a>
+            <a href="#list-list">List</a>
+            <a href="#links-links">Links</a>
         </div>
         
         <div id="main">
@@ -60,7 +60,7 @@
                 </div> -->
                     <img src="images/html.logo.png" class = "hyper-logo" width="900" height="75" >
                 
-                    <h4 class="hyper-h1">HTML: HyperText Markup Language</h4>
+                    <h4 class="hyper-h1">HTML: Hyper Text Markup Language</h4>
                     <p id="definition"><span style="color:rgb(227, 79,38)"><strong>Definition:</strong></span> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.<br><br> Source:&#9755;<a href="https://www.google.com/search?q=html+definition&rlz=1C1ONGR_enPH932PH932&oq=html+defin&aqs=chrome.0.69i59j69i57j0i512l8.9153j0j15&sourceid=chrome&ie=UTF-8">Wikipedia</a></p>
                     
                     <h5 id="history">HISTORY</h5>
@@ -130,7 +130,7 @@
                         </div>
 
                         <div id= "nesting-elements" class="nesting-elements">
-                            <h5>NESTING ELEMENTS</h5>
+                            <h5 id="nesting">NESTING ELEMENTS</h5>
                             <P>
                                 You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;strong&gt;</span> element, which means that the word is to be strongly emphasized:
                             </P>
@@ -146,7 +146,7 @@
 
                
                         <div id="empty-elements" class="empty-elements">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">EMPTY ELEMENTS</h5>
+                            <h5 id="empty" style="color:rgb(227, 79,38);text-align:center">EMPTY ELEMENTS</h5>
                             <P>
                                 Some elements have no content and are called empty elements. Take the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;img&gt;</span> element that we already have in our HTML page:
                             </P>
@@ -188,7 +188,7 @@
                         </div>
 
                         <div id="image" class="image">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">IMAGES</h5>
+                            <h5 id="img-image" style="color:rgb(227, 79,38);text-align:center">IMAGES</h5>
                             <P>Let's turn our attention to the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;img&gt; </span> element again:</P>
                             <img src="images/image-pic.png" class="image-pic"><br><br><br>
                             <p>As we said before, it embeds an image into our page in the position it appears. It does this via the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">src</span> (source) attribute, which contains the path to our image file.</p>
@@ -209,7 +209,7 @@
                         </div>
 
                         <div id= "marking-up-text" class="marking-up-text">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">MARKING UP TEXT</h5>
+                            <h5 id="text-marking" style="color:rgb(227, 79,38);text-align:center">MARKING UP TEXT</h5>
                             <P>This section will cover some of the essential HTML elements you'll use for marking up the text.</P>
                             <h6 style="color:rgb(227, 79,38);text-align:center">Headings</h6><br>
                             <p>
@@ -223,7 +223,7 @@
                         </div>
 
                         <div id="paragraph" class="paragraph">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">PARAGRAPHS</h5>
+                            <h5 id="para" style="color:rgb(227, 79,38);text-align:center">PARAGRAPHS</h5>
                             <P>As explained above, <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt; </span> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content:</P>
                             <img src="images/paragraph-pic.PNG" class="paragraph-pic"><br><br><br>
                             <p>
@@ -232,7 +232,7 @@
                         </div>
 
                         <div id = "list" class="list">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">LIST</h5>
+                            <h5 id="list-list" style="color:rgb(227, 79,38);text-align:center">LIST</h5>
                             <p>A lot of the web's content is lists and HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:</p>
                             <ol>
                                 <li>
@@ -252,7 +252,7 @@
                         </div>
 
                         <div id="links" class="links">
-                            <h5 style="color:rgb(227, 79,38);text-align:center">LINKS</h5>
+                            <h5 id="links-links" style="color:rgb(227, 79,38);text-align:center">LINKS</h5>
                             <P>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt; </span>Each item inside the lists is put inside an  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt; </span> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:</P>
                                 <ol>
                                     <li>
@@ -275,15 +275,24 @@
                                 <p>
                                     You might get unexpected results if you omit the https:// or http:// part, called the protocol, at the beginning of the web address. After making a link, click it to make sure it is sending you where you wanted it to.
                                 </p>
-                                <img src="images/links-pic4.PNG" class="links-pic4">
+                                <img src="images/links-pic4.PNG" class="links-pic4"><br><br><br>
+                                <p style="text-align:center">Source: &#9755 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> MDN Mozilla Development Network</a></p>
 
                         </div>
             </div>
+            
+            
+                <footer>
+                    <p>By : Giovanni Kuan<br>
+                    <a href="mailto:giokuan@gmail.com">giokuan@gmail.com</a></p>
+                    <p>Kodego Mini Project 1</p>
+                </footer>
+            
         </div>
 
             
 
-      
+           
       
     <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-circle-up"></i></a> -->
 
