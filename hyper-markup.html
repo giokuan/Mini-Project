@@ -26,12 +26,13 @@
     <title>Learn HTML</title>
 </head>
 <body class="hyper-body">
+ 
 
         <div id="mySidebar" class="sidebar">
             <a href="javascript:void(0)" class="closebtn" onclick="closeNav()" ><i class="fa-solid fa-angles-left"></i></a>
             <!-- <a href="index.html" class="homebtn" ><i class="fa-solid fa-house-chimney display-block"></i></a> -->
-
-            <a href="#">History</a>
+            <hr>
+            <a href="#history">History</a> 
             <a href="#simple-document">Simple Document</a>
             <a href="#attribute-pic">Attribute</a>
             <a href="#nesting-elements">Nesting Elements</a>
@@ -44,21 +45,19 @@
         </div>
         
         <div id="main">
-            <button class="openbtn" onclick="openNav()" >☰</button>  
+            <button class="openbtn" onclick="openNav()" ><i class="fa-solid fa-angles-right"></i></button>  
             <a href="index.html" class="homebtn" ><i class="fa-solid fa-house-chimney "></i></a>
-            
-            <!-- <h2>Collapsed Sidebar</h2>
-            <p>Click on the hamburger menu/bar icon to open the sidebar, and push this content to the right.</p> -->
         </div>
        
-         
+        <button onclick="topFunction()" id="myBtn" class="back-to-top"><i class="fa-solid fa-circle-up"></i></button> 
+        
         <div data-aos="fade-down"
                 data-aos-easing="linear"
                 data-aos-duration="2000">
             <div class="heading">
-                <div class="hyper-sidebar">
+                <!-- <div class="hyper-sidebar">
                 
-                </div>
+                </div> -->
                     <img src="images/html.logo.png" class = "hyper-logo" width="900" height="75" >
                 
                     <h4 class="hyper-h1">HTML: HyperText Markup Language</h4>
@@ -285,8 +284,9 @@
             
 
       
-        
-     
+      
+    <!-- <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="fa-solid fa-circle-up"></i></a> -->
+
     <script src="asset/script.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
