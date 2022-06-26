@@ -993,3 +993,67 @@ h5#anatomy-of-html{
     grid-row: 24 / 25;
     }
 }
+
+  /*--------------------------------------------------------------
+#JAVASCRIPT PAGE
+--------------------------------------------------------------*/
+
+.js-body{
+    overflow:visible;
+    background: url("images/spaceship.gif")no-repeat center center fixed;
+}
+
+.js-body a:hover{
+    color:rgb(231, 200, 48);
+}
+
+.js-body img {
+    border: 2px solid rgb(231, 200, 48);
+}
+
+.js-body .homebtn{
+    color:rgb(231, 200, 48);
+    /* position:fixed;
+    top:10px;
+    right: 20px;
+    z-index:996;  */
+  }
+
+  .js-body  .homebtn:hover{
+    color:white;
+  }
+
+  .js-body .openbtn{
+    color:rgb(231, 200, 48);
+  }
+
+  .js-body  .openbtn:hover{
+    color:white;
+  }
+
+  .js-body .back-to-top{
+    color:rgb(231, 200, 48);
+    border-color: rgb(231, 200, 48);
+
+  }
+
+  /* .js-body .nesting-elements2{
+    grid-column: 1 / 4;
+    grid-row: 23 / 24;
+    color:#fff;
+    text-align:justify;
+  } */
+
+  .js-body #what-happened{
+    color:rgb(231, 200, 48);
+
+  }
+
+  /* @media(min-width:767px){
+    .js-body .nesting-elements2{
+
+        grid-column: 2 / 4;
+        grid-row: 24 / 25;
+    }
+  } */
+  
