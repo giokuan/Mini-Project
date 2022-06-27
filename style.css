@@ -857,6 +857,10 @@ h5#anatomy-of-html{
     z-index:996;  
   }
 
+  .openbtn:hover {
+    color:white;
+  }
+
   .homebtn{
     color:rgb(227, 79,38);
     position:fixed;
@@ -869,9 +873,46 @@ h5#anatomy-of-html{
     color:white;
   }
 
-  .openbtn:hover {
-    color:white;
+  .js-btn{
+    color:rgb(227, 79,38);
+    position:fixed;
+    top:13px;
+    right: 60px;
+    z-index:996; 
+    border-radius: 50%;
+    border:1px solid rgb(227, 79,38);
+    /* background-color: transparent; */
   }
+
+  .js-btn:hover{
+    background-color:#111;
+  }
+
+  .css-btn{
+    color:rgb(227, 79,38);
+    position:fixed;
+    top:13px;
+    right: 100px;
+    z-index:996; 
+    border-radius: 50%;
+    border:1px solid rgb(227, 79,38);
+  }
+
+  .css-btn:hover{
+    background-color:#111;
+  }
+
+  .html-btn{
+    color:rgb(227, 79,38);
+    position:fixed;
+    top:13px;
+    right: 100px;
+    z-index:996; 
+    border-radius: 50%;
+    border:1px solid rgb(227, 79,38);
+  }
+
+ 
   
   #main {
     transition: margin-left .5s;
@@ -965,6 +1006,26 @@ h5#anatomy-of-html{
 
   }
 
+  .css-body .js-btn{
+    color:rgb(38, 156, 231);
+    border-color: rgb(38, 156, 231);
+  }
+
+  .css-body .js-btn:hover{
+    background-color: black;
+  }
+
+
+  .css-body .html-btn{
+    color:rgb(38, 156, 231);
+    border-color: rgb(38, 156, 231);
+  }
+
+  .css-body .html-btn:hover{
+    background-color: black;
+  }
+
+
   /******* Continuation of grid from starting at index.html ************/
   .level-one-heading{
     grid-column: 1 / 4;
@@ -1037,6 +1098,30 @@ h5#anatomy-of-html{
 
   }
 
+  .js-body .html-btn{
+    color:rgb(231, 200, 48);
+    position:fixed;
+    top:13px;
+    right: 60px;
+    z-index:996; 
+    border-radius: 50%;
+    border:1px solid rgb(231, 200, 48);
+    background-color:#111;
+  }
+
+  .js-body .html-btn:hover{
+    background-color:#fff;
+  }
+
+  .js-body .css-btn{
+    color:rgb(231, 200, 48);
+    background-color:#111;
+    border-color: rgb(231, 200, 48);
+  }
+
+  .js-body .css-btn:hover{
+    background-color: #fff;
+  }
   /* .js-body .nesting-elements2{
     grid-column: 1 / 4;
     grid-row: 23 / 24;
