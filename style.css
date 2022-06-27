@@ -5,13 +5,8 @@ body{
     height: 100vh;
     background: url(images/night-light.jpg) center center / cover;
     font-family: 'Roboto', sans-serif;
-    /* color: #ccc; */
-    /* overflow: hidden; */
     margin:0;
-    padding:0;
-   
-  
-    
+    padding:0;   
 }
 
 .navbar{
@@ -43,23 +38,14 @@ ul.dropdown-menu{
     background-color: transparent; 
 }
 
-
-
 .navbar-toggler{
-  
-    transform: translateY(-2rem);
-
-    
-    
+    transform: translateY(-2rem);  
 }
 
 ul.dropdown-menu .dropdown-item{
-    color: rgb(227, 79,38);
-    
-    
+    color: rgb(227, 79,38);    
 }
   
-
 
 h1{
     display:flex;
@@ -82,7 +68,6 @@ h1{
     margin-right: 2rem;
     line-height:2;
 }
-
 
 
  .column{               /************* main container ******************/
@@ -133,14 +118,11 @@ h1{
 }
 
 
-
 .card{
    background-color: transparent !important;
    color: #fff;
    border:none !important;
-   position: relative;
-    
-    
+   position: relative;  
 }
 
 .card img{
@@ -148,16 +130,13 @@ h1{
     width:100%;
     transform: translateY(10rem) ;
     height: 20rem;   
-
 }
 
 
 .card-body{
     height:8rem;
     width:100%;
-   
     transform: translateY(10rem) ;
-    /* border: 1px solid #ccc; */
     font-size:.75rem;
     position: absolute;
     opacity:0;
@@ -182,7 +161,6 @@ h5, p{
 
 /***************** card hover feature start ***********/
 figure {
-	/* width: 300px; */
 	height:20rem;
 	margin: 0;
 	padding: 0;
@@ -247,53 +225,6 @@ figure {
     color: rgb(231, 200, 48);
 }
 
-
-
-/* .btn-read{
-    background:transparent;
-  color:#fff;
-  border:none;
-  position:relative;
-  height:1.8rem;
-  font-size:1rem;
-  padding:0 1em;
-  cursor:pointer;
-  transition:800ms ease all;
-  outline:none;
-  border-radius:1rem;
-  z-index:3;
-  transform:translateY(-5rem);
-  transform:translateX(62rem);
-  
-  width:7.8rem;
-
-} */
-
-/****************** Read more button ******************/
-/* .btn-read:hover{
-    background:#fff;
-    color:rgb(227, 79,38);
-  }
-  .btn-read:before,.btn-read:after{
-    content:'';
-    position:absolute;
-    top:0;
-    right:0;
-    height:2px;
-    width:0;
-    background: rgb(227, 79,38);
-    transition:400ms ease all;
-  }
-  .btn-read:after{
-    right:inherit;
-    top:inherit;
-    left:0;
-    bottom:0;
-  }
-  .btn-read:hover:before,.btn-read:hover:after{
-    width:100%;
-    transition:800ms ease all;
-  } */
   
 /********************* FRONT END PAGE START *****************************/
   .front-end-sub-heading p{
@@ -346,7 +277,6 @@ figure {
 }
 
 .hyper-h1{
-    
     color:rgb(227, 79,38);
     grid-column: 1 / 4;
     grid-row: 1/ 2;
@@ -369,7 +299,6 @@ img.hyper-logo{
     grid-column: 1 / 4;
     grid-row: 2 / 3;
     text-align: justify;
-    /* background-color:rgba(58, 57, 57, 0.8); */
     color :#fff;
     margin-top: 1rem;  
 }
@@ -385,7 +314,6 @@ h5#history{
     grid-column: 1 / 4;
     grid-row: 4 / 5;
     color:#fff;
-    /* background-color:rgba(58, 57, 57, 0.7); */
     padding:1rem;
     text-align: justify;
 }
@@ -442,26 +370,24 @@ h5#anatomy-of-html{
     grid-row: 11 / 12; 
     width:100%;
     margin-top: 0;
-    border: 2px solid rgb(227, 79,38);
-    
-    
+    border: 2px solid rgb(227, 79,38);     
 }
+
 .paragraph-attribute{
     grid-column: 1 / 4;
     grid-row: 12 / 13;
     color:#fff;
     margin-top:2rem;
     text-align:justify;
- 
 }
 
 .attribute-must-have{
     grid-column: 1 / 4;
     grid-row: 13 / 14;
     color:#fff;
-    text-align:justify;
-    
+    text-align:justify;  
 }
+
 .attribute-must-have-pic{
     width:100%;
     border: 2px solid rgb(227, 79,38);
@@ -472,9 +398,9 @@ h5#anatomy-of-html{
     grid-row: 14 / 15;
     color:#fff;
     text-align:justify;
-    margin-top:2rem;
-    
+    margin-top:2rem;  
 }
+
 .nesting-elements h5{
     text-align: center;
     color:rgb(227, 79,38);
@@ -496,29 +422,28 @@ h5#anatomy-of-html{
 
 .nesting-pic2{
     width: 100%;
-    border: 2px solid rgb(227, 79,38);
-    
+    border: 2px solid rgb(227, 79,38);   
 }
 
 .empty-elements{
     grid-column: 1 / 4;
     grid-row: 16 / 17;
     color:#fff;
-    text-align:justify;
-    
+    text-align:justify;   
 }
 
 .empty-pic{
     width: 100%;
-    border: 2px solid rgb(227, 79,38);
-    
+    border: 2px solid rgb(227, 79,38);   
 }
+
 .anatomy-of-html-document{
     grid-column: 1 / 4;
     grid-row: 17 / 18;
     color:#fff;
     text-align:justify;
 }
+
 .anatomy-doc-pic{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
@@ -529,8 +454,8 @@ h5#anatomy-of-html{
     grid-row: 18 / 19;
     color:#fff;
     text-align:justify;
-
 }
+
 .image-pic{
     width:100%;
     border: 2px solid rgb(227, 79,38);
@@ -547,6 +472,7 @@ h5#anatomy-of-html{
     color:#fff;
     text-align:justify;
 }
+
 .marking-pic{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
@@ -568,16 +494,19 @@ h5#anatomy-of-html{
     color:#fff;
     text-align:justify;
 }
+
 .paragraph-pic{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
 }
+
 .list{
     grid-column: 1 / 4;
     grid-row: 21 / 22;
     color:#fff;
     text-align:justify;
 }
+
 .list-pic{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
@@ -594,10 +523,12 @@ h5#anatomy-of-html{
     color:#fff;
     text-align:justify; 
 }
+
 .links-pic1{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
 }
+
 .links-pic2{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
@@ -607,6 +538,7 @@ h5#anatomy-of-html{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
 }
+
 .links-pic4{
     width: 100%;
     border: 2px solid rgb(227, 79,38);
@@ -713,9 +645,6 @@ h5#anatomy-of-html{
         grid-row: 12 / 13; 
         width:100%;
         margin-top: 0;
-        /* border: 2px solid rgb(227, 79,38); */
-        
-        
     }
 
     .paragraph-attribute{
@@ -724,22 +653,18 @@ h5#anatomy-of-html{
         color:#fff;
         margin-top:1rem;
         text-align:justify;
-     
     }
 
     .attribute-must-have{
         grid-column: 2 / 4;
         grid-row: 14 / 15;
-        text-align:justify;
-     
-        
+        text-align:justify; 
     }
 
     .nesting-elements{
         grid-column: 2 / 4;
         grid-row: 15 / 16;
-        margin-top:2rem;
-        
+        margin-top:2rem; 
     }
 
     .nesting-pic{
@@ -757,8 +682,7 @@ h5#anatomy-of-html{
     .empty-elements{
         grid-column: 2 / 4;
         grid-row: 17 / 18;
-        text-align:justify;
-        
+        text-align:justify;   
     }
 
     .anatomy-of-html-document{
@@ -780,14 +704,12 @@ h5#anatomy-of-html{
     .marking-up-text{
         grid-column: 2 / 4;
         grid-row: 20 / 21;
-        
         text-align:justify;
     }
 
     .paragraph{
         grid-column: 2 / 4;
         grid-row: 21 / 22;
-       
         text-align:justify;
     }
 
@@ -799,7 +721,6 @@ h5#anatomy-of-html{
     .links{
         grid-column: 2 / 4;
         grid-row: 23 / 24;
-      
         text-align:justify; 
     }
 
@@ -881,7 +802,6 @@ h5#anatomy-of-html{
     z-index:996; 
     border-radius: 50%;
     border:1px solid rgb(227, 79,38);
-    /* background-color: transparent; */
   }
 
   .js-btn:hover{
@@ -911,9 +831,7 @@ h5#anatomy-of-html{
     border-radius: 50%;
     border:1px solid rgb(227, 79,38);
   }
-
  
-  
   #main {
     transition: margin-left .5s;
     padding: 10px 15px;
@@ -942,8 +860,7 @@ h5#anatomy-of-html{
     color:rgb(227, 79,38);
     background-color: rgba(0,0,0,0.5);
     width:3.3rem;
-    border-radius: 50%;
-    
+    border-radius: 50%;  
 }
 
 #myBtn:hover {
@@ -954,8 +871,7 @@ h5#anatomy-of-html{
     text-align: center;
     padding-top: 2rem;
     background-color:rgba(0,0,0,0.5);
-    color: white;
-    
+    color: white; 
   }
 
 
@@ -982,10 +898,6 @@ h5#anatomy-of-html{
 
 .css-body .homebtn{
     color:rgb(38, 156, 231);
-    /* position:fixed;
-    top:10px;
-    right: 20px;
-    z-index:996;  */
   }
 
   .css-body  .homebtn:hover{
@@ -1003,7 +915,6 @@ h5#anatomy-of-html{
   .css-body .back-to-top{
     color:rgb(38, 156, 231);
     border-color: rgb(38, 156, 231);
-
   }
 
   .css-body .js-btn{
@@ -1122,23 +1033,10 @@ h5#anatomy-of-html{
   .js-body .css-btn:hover{
     background-color: #fff;
   }
-  /* .js-body .nesting-elements2{
-    grid-column: 1 / 4;
-    grid-row: 23 / 24;
-    color:#fff;
-    text-align:justify;
-  } */
 
   .js-body #what-happened{
     color:rgb(231, 200, 48);
 
   }
 
-  /* @media(min-width:767px){
-    .js-body .nesting-elements2{
-
-        grid-column: 2 / 4;
-        grid-row: 24 / 25;
-    }
-  } */
   
