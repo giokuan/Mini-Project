@@ -3,7 +3,7 @@
 
 body{
     height: 100vh;
-    background: url(images/night-light.jpg) center center / cover;
+    background: url("images/night-light-mobile-view.png") center center  / cover fixed; 
     font-family: 'Roboto', sans-serif;
     margin:0;
     padding:0;   
@@ -96,6 +96,10 @@ h1{
 }
 
 @media(min-width:900px){
+    body{
+        background: url("images/night-light.jpg") center center / cover;
+    }
+
     .sub-heading, .front-end-sub-heading{
         margin-left:3rem;
         margin-right: 3rem;
@@ -226,32 +230,6 @@ figure {
 }
 
   
-/********************* FRONT END PAGE START *****************************/
-  .front-end-sub-heading p{
-    color:#fff;
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    margin-top:2rem;
-    margin-left:2rem;
-    margin-right: 2rem;
-    line-height:2;
-}
-
-.front-end-sub-heading span a{
-    display:flex;
-    flex-direction: column;
-}
-
-.btn-front-end-sub-heading a{
-    display:flex;
-    line-height:1;
-    width:50rem;
-    border-radius: 2rem;
-    z-index:0;
-    transform:translateY(5rem);
-    transform:translatex(-37rem);    
-}
 
 
 /********************* HYPER TEXT MARKUP  PAGE START (HTML SITE)*****************************/
@@ -556,7 +534,6 @@ h5#anatomy-of-html{
     }
 
     .hyper-sidebar{
-        /* background-color:rgba(58, 57, 57, 0.7); */
         grid-column: 1 / 2;
         grid-row: 1 / 6;
         margin-top: .8rem;  
