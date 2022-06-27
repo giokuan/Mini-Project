@@ -67,7 +67,12 @@
                     <img src="images/html.logo.png" class = "hyper-logo" width="900" height="75" >
                 
                     <h4 class="hyper-h1">HTML: Hyper Text Markup Language</h4>
-                    <p id="definition"><span style="color:rgb(227, 79,38)"><strong>Definition:</strong></span> The HyperText Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets and scripting languages such as JavaScript.<br><br> Source:&#9755;<a href="https://www.google.com/search?q=html+definition&rlz=1C1ONGR_enPH932PH932&oq=html+defin&aqs=chrome.0.69i59j69i57j0i512l8.9153j0j15&sourceid=chrome&ie=UTF-8">Wikipedia</a></p>
+                    <p id="definition"><span style="color:rgb(227, 79,38)"><strong>Definition:</strong></span> 
+                        The HyperText Markup Language or HTML is the standard markup language for documents 
+                        designed to be displayed in a web browser. It can be assisted by technologies such 
+                        as Cascading Style Sheets and scripting languages such as JavaScript.<br><br> 
+                        Source:&#9755;<a href="https://www.google.com/search?q=html+definition&rlz=1C1ONGR_enPH932PH932&oq=html+defin&aqs=chrome.0.69i59j69i57j0i512l8.9153j0j15&sourceid=chrome&ie=UTF-8">Wikipedia</a>
+                    </p>
                     
                     <h5 id="history">HISTORY</h5>
 
@@ -97,16 +102,26 @@
                         <p>The main parts of our element are as follows:</p> 
                         <ol>
                             <li>
-                                <span style="color:rgb(227, 79,38)"><strong>The opening tag:</strong></span> This consists of the name of the element (in this case, p), wrapped in opening and closing angle brackets. This states where the element begins or starts to take effect — in this case where the paragraph begins.<br><br>
+                                <span style="color:rgb(227, 79,38)"><strong>The opening tag:</strong></span> 
+                                This consists of the name of the element (in this case, p), wrapped in opening 
+                                and closing angle brackets. This states where the element begins or starts to 
+                                take effect — in this case where the paragraph begins.<br><br>
                             </li>
                             <li>
-                                <span style="color:rgb(227, 79,38)"><strong>The closing tag:</strong></span> This is the same as the opening tag, except that it includes a forward slash before the element name. This states where the element ends — in this case where the paragraph ends. Failing to add a closing tag is one of the standard beginner errors and can lead to strange results.<br><br>
+                                <span style="color:rgb(227, 79,38)"><strong>The closing tag:</strong></span> 
+                                This is the same as the opening tag, except that it includes a forward slash 
+                                before the element name. This states where the element ends — in this case where 
+                                the paragraph ends. Failing to add a closing tag is one of the standard beginner 
+                                errors and can lead to strange results.<br><br>
                             </li>
                             <li>
-                                <span style="color:rgb(227, 79,38)"><strong>The content:</strong></span> This is the content of the element, which in this case, is just text.<br><br>
+                                <span style="color:rgb(227, 79,38)"><strong>The content:</strong></span> 
+                                This is the content of the element, which in this case, is just text.<br><br>
                             </li>
                             <li>
-                                <span style="color:rgb(227, 79,38)"><strong>The element:</strong></span> The opening tag, the closing tag, and the content together comprise the element.<br><br><br>
+                                <span style="color:rgb(227, 79,38)"><strong>The element:</strong></span> 
+                                The opening tag, the closing tag, and the content together comprise the element.<br><br><br>
+
                                 <p style="text-align:center">Source: &#9755 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> MDN Mozilla Development Network</a></p>
                             </li>
                             <p style="text-align:left">Elements can also have attributes that look like the following:</p>
@@ -114,8 +129,13 @@
                     </div>
 
                         <img src="images/html3.png" id="attribute-pic" class="attribute-pic">
+
                         <p class="paragraph-attribute">   
-                            Attributes contain extra information about the element that you don't want to appear in the actual content. Here, class is the attribute name and editor-note is the attribute value. The class attribute allows you to give the element a non-unique identifier that can be used to target it (and any other elements with the same class value) with style information and other things.
+                            Attributes contain extra information about the element that you don't want to 
+                            appear in the actual content. Here, class is the attribute name and editor-note 
+                            is the attribute value. The class attribute allows you to give the element a non-unique 
+                            identifier that can be used to target it (and any other elements with the same class value) 
+                            with style information and other things.
                         </p>
 
                         <div class="attribute-must-have">
@@ -137,36 +157,67 @@
 
                         <div id= "nesting-elements" class="nesting-elements">
                             <h5 id="nesting">NESTING ELEMENTS</h5>
+
                             <P>
-                                You can put elements inside other elements too — this is called nesting. If we wanted to state that our cat is very grumpy, we could wrap the word "very" in a <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;strong&gt;</span> element, which means that the word is to be strongly emphasized:
+                                You can put elements inside other elements too — this is called nesting. If we wanted to 
+                                state that our cat is very grumpy, we could wrap the word "very" in a 
+                                <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;strong&gt;</span> 
+                                element, which means that the word is to be strongly emphasized:
                             </P>
                             <img src="images/nesting-elements-pic.png" class="nesting-pic">
                         </div>
 
                         <div class="nesting-elements2">
-                            <p>You do however need to make sure that your elements are properly nested. In the example above, we opened the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt;</span>  element first, then the  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;strong&gt;</span> element; therefore, we have to close the<span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;strong&gt;</span> element first, then the  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;p&gt;  </span>element. The following is incorrect:</p>
+                            <p>
+                                You do however need to make sure that your elements are properly nested. 
+                                In the example above, we opened the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt;</span>  
+                                element first, then the  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;strong&gt;</span> 
+                                element; therefore, we have to close the<span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;strong&gt;</span> 
+                                element first, then the  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">   &lt;p&gt;  </span>
+                                element. The following is incorrect:
+                            </p>
+                            
                             <img src="images/nesting-pic2.PNG" class="nesting-pic2"><br><br><br>
-                            <p>The elements have to open and close correctly so that they are clearly inside or outside one another. If they overlap as shown above, then your web browser will try to make the best guess at what you were trying to say, which can lead to unexpected results. So don't do it!</p><br>
+
+                            <p>
+                                The elements have to open and close correctly so that they are clearly 
+                                inside or outside one another. If they overlap as shown above, then 
+                                your web browser will try to make the best guess at what you were trying 
+                                to say, which can lead to unexpected results. So don't do it!
+                            </p><br>
                             <p style="text-align:center">Source: &#9755 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> MDN Mozilla Development Network</a></p>
                         </div>
 
                
                         <div id="empty-elements" class="empty-elements">
                             <h5 id="empty" style="color:rgb(227, 79,38);text-align:center">EMPTY ELEMENTS</h5>
+
                             <P>
-                                Some elements have no content and are called empty elements. Take the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;img&gt;</span> element that we already have in our HTML page:
+                                Some elements have no content and are called empty elements. Take the 
+                                <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;img&gt;</span> 
+                                element that we already have in our HTML page:
                             </P>
+
                             <img src="images/empty-elements-pic.png" class="empty-pic"><br><br><br>
+
                             <p>
-                                This contains two attributes, but there is no closing <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;/img&gt; </span> tag and no inner content. This is because an image element doesn't wrap content to affect it. Its purpose is to embed an image in the HTML page in the place it appears.
+                                This contains two attributes, but there is no closing 
+                                <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;/img&gt; </span> 
+                                tag and no inner content. This is because an image element doesn't wrap content to affect it. 
+                                Its purpose is to embed an image in the HTML page in the place it appears.
                             </p>
                         </div>
 
                         <div class="anatomy-of-html-document">
                             <h5 style="color:rgb(227, 79,38);text-align:center">ANATOMY OF AN HTML DOCUMENTS</h5>
+
                             <P>
-                                That wraps up the basics of individual HTML elements, but they aren't handy on their own. Now we'll look at how individual elements are combined to form an entire HTML page. Let's revisit the code we put into our <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">index.html</span> example (which we first met in the Dealing with files article):
+                                That wraps up the basics of individual HTML elements, but they aren't handy on their own. 
+                                Now we'll look at how individual elements are combined to form an entire HTML page. Let's
+                                revisit the code we put into our <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">index.html</span> 
+                                example (which we first met in the Dealing with files article):
                             </P>
+
                             <img src="images/anatomy-of-html-doc.png" class="anatomy-doc-pic"><br><br><br>
 
                             <p>Here, we have the following:</p>
@@ -195,18 +246,38 @@
 
                         <div id="image" class="image">
                             <h5 id="img-image" style="color:rgb(227, 79,38);text-align:center">IMAGES</h5>
-                            <P>Let's turn our attention to the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;img&gt; </span> element again:</P>
+
+                            <P>
+                                Let's turn our attention to the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;img&gt; </span> 
+                                element again:
+                            </P>
+                            
                             <img src="images/image-pic.png" class="image-pic"><br><br><br>
-                            <p>As we said before, it embeds an image into our page in the position it appears. It does this via the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">src</span> (source) attribute, which contains the path to our image file.</p>
-                            <p>We have also included an <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">alt </span>(alternative) attribute. In this attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:</p>
+
+                            <p>
+                                As we said before, it embeds an image into our page in the position it appears. It does this via the 
+                                <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">src</span> (source) attribute,
+                                 which contains the path to our image file.
+                            </p>
+                            
+                            <p>
+                                We have also included an <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">alt </span>
+                                (alternative) attribute. In this attribute, you specify descriptive text for users who cannot see the image, 
+                                possibly because of the following reasons:
+                            </p>
+                            
                             <ol>
                                 <li>
-                                    They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.
+                                    They are visually impaired. Users with significant visual impairments often use tools 
+                                    called screen readers to read out the alt text to them.
                                 </li>
                                 <li>
-                                    Something has gone wrong causing the image not to display. For example, try deliberately changing the path inside your <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> src</span> attribute to make it incorrect. If you save and reload the page, you should see something like this in place of the image:
+                                    Something has gone wrong causing the image not to display. For example, try 
+                                    deliberately changing the path inside your <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> src</span>
+                                     attribute to make it incorrect. If you save and reload the page, you should see something like this in place of the image:
                                 </li>
                             </ol>
+
                             <img src="images/test-image.png" class="test-image"><br><br><br>
                             <p>
                                 The keywords for alt text are "descriptive text". The alt text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth."
@@ -239,38 +310,63 @@
 
                         <div id = "list" class="list">
                             <h5 id="list-list" style="color:rgb(227, 79,38);text-align:center">LIST</h5>
-                            <p>A lot of the web's content is lists and HTML has special elements for these. Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:</p>
+                            <p>A lot of the web's content is lists and HTML has special elements for these. 
+                                Marking up lists always consists of at least 2 elements. The most common list types are ordered and unordered lists:
+                            </p>
                             <ol>
                                 <li>
-                                    Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. These are wrapped in a <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;ul&gt;</span> element.<br>
+                                    Unordered lists are for lists where the order of the items doesn't matter, such as a shopping list. 
+                                    These are wrapped in a <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;ul&gt;</span> element.<br>
                                 </li>
                                 <li>
-                                    Ordered lists are for lists where the order of the items does matter, such as a recipe. These are wrapped in an , <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;ol&gt; </span> element.
+                                    Ordered lists are for lists where the order of the items does matter, such as a recipe. 
+                                    These are wrapped in an , <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;ol&gt; </span> element.
                                 </li>
                             </ol><br>
-                            <p>Each item inside the lists is put inside an  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;li&gt; </span> (list item) element.</p>
-                            <p>For example, if we wanted to turn the part of the following paragraph fragment into a list</p>
+
+                            <p>Each item inside the lists is put inside an  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;li&gt; </span> 
+                                (list item) element.
+                            </p>
+
+                            <p>
+                                For example, if we wanted to turn the part of the following paragraph fragment into a list
+                            </p>
+
                             <img src="images/list-pic.PNG" class="list-pic"><br><br><br>
-                            <p>We could modify the markup to this</p>
+
+                            <p>
+                                We could modify the markup to this
+                            </p>
+
                             <img src="images/list-pic2.PNG" class="list-pic2"><br><br><br>
-                            <p>Try adding an ordered or unordered list to your example page.</p>
+
+                            <p>
+                                Try adding an ordered or unordered list to your example page.
+                            </p>
                             <p style="text-align:center">Source: &#9755 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> MDN Mozilla Development Network</a></p>
                         </div>
 
                         <div id="links" class="links">
                             <h5 id="links-links" style="color:rgb(227, 79,38);text-align:center">LINKS</h5>
-                            <P>Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt; </span>Each item inside the lists is put inside an  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt; </span> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:</P>
+                            <P>
+                                Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — 
+                                <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)"> &lt;p&gt; </span>Each item inside 
+                                the lists is put inside an  <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt; </span> — 
+                                "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:
+                            </P>
                                 <ol>
                                     <li>
                                         Choose some text. We chose the text "Mozilla Manifesto".
                                     </li>
                                     <li>
-                                        Wrap the text in an <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt;</span> element, as shown below:
+                                        Wrap the text in an <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt;</span> 
+                                        element, as shown below:
                                         
                                     </li>
                                     <img src="images/links-pic1.PNG" class="links-pic1"><br><br>
                                     <li>
-                                        Give the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt;</span> element an href attribute, as shown below:
+                                        Give the <span style="color:rgb(227, 79,38); background-color:rgb(27, 26, 26)">&lt;a&gt;</span> 
+                                        element an href attribute, as shown below:
                                     </li>
                                     <img src="images/links-pic2.PNG" class="links-pic2"><br><br>
                                     <li>
@@ -279,7 +375,8 @@
                                     <img src="images/links-pic3.PNG" class="links-pic3"><br><br><br>
                                 </ol>
                                 <p>
-                                    You might get unexpected results if you omit the https:// or http:// part, called the protocol, at the beginning of the web address. After making a link, click it to make sure it is sending you where you wanted it to.
+                                    You might get unexpected results if you omit the https:// or http:// part, called the protocol,
+                                     at the beginning of the web address. After making a link, click it to make sure it is sending you where you wanted it to.
                                 </p>
                                 <img src="images/links-pic4.PNG" class="links-pic4"><br><br><br>
                                 <p style="text-align:center">Source: &#9755 <a href="https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics"> MDN Mozilla Development Network</a></p>
